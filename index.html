@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSphere | Portfolio Gold ⭐</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">BlogSphere<span class="gold-star">⭐</span></a>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="subscribe-btn">Subscribe</a></li>
+                <li><a href="admin.html" class="subscribe-btn">Admin</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to <span class="gold-text">Portfolio Gold</span> Blog</h1>
+                <p class="hero-subtitle">A premium space for insightful articles, creative ideas, and professional
+                    growth.</p>
+                <a href="#blog" class="cta-button">Explore Articles</a>
+            </div>
+            <div class="hero-image">
+                <div class="gold-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Premium Content</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Posts -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured <span class="gold-text">Articles</span></h2>
+                <p>Discover our most valuable content</p>
+            </div>
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog posts will be loaded dynamically from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>About <span class="gold-text">BlogSphere</span></h2>
+                <p>Welcome to BlogSphere, your premier destination for high-quality articles on web development, design,
+                    technology, and professional growth. Our mission is to provide valuable insights and resources that
+                    help you excel in your career and creative pursuits.</p>
+                <p>Each article is carefully crafted to offer practical knowledge and inspiration. We believe in the
+                    power of sharing knowledge to foster growth and innovation in the digital world.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Articles Published</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10K+</h3>
+                        <p>Monthly Readers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5⭐</h3>
+                        <p>Quality Rating</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-frame">
+                    <div class="gold-border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Social Media Section -->
+    <section class="social-media-section" id="social">
+        <div class="container">
+            <div class="social-header">
+                <h2>Connect With <span class="gold-text">Me</span></h2>
+                <p>Follow me on social media for latest updates, tutorials, and insights</p>
+            </div>
+
+            <div class="social-grid">
+                <!-- Social cards will be loaded dynamically -->
+            </div>
+
+            <div class="social-stats">
+                <div class="social-stat">
+                    <i class="fas fa-share-alt"></i>
+                    <h3 id="followCount">0</h3>
+                    <p>Platforms</p>
+                </div>
+                <div class="social-stat">
+                    <i class="fas fa-users"></i>
+                    <h3>10K+</h3>
+                    <p>Followers</p>
+                </div>
+                <div class="social-stat">
+                    <i class="fas fa-rocket"></i>
+                    <h3>24/7</h3>
+                    <p>Active</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#social-manager" class="cta-button">
+                    <i class="fas fa-cog"></i> Manage Social Links
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Manager Section (Admin) -->
+    <section class="social-manager" id="social-manager">
+        <div class="container">
+            <!-- Content will be loaded by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay <span class="gold-text">Updated</span></h2>
+                <p>Subscribe to our newsletter and never miss our latest articles and updates.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In <span class="gold-text">Touch</span></h2>
+                <p>Have questions or suggestions? Feel free to reach out!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope gold-icon"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@blogsphere.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt gold-icon"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone gold-icon"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+880 1XXX-XXXXXX</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">BlogSphere<span class="gold-star">⭐</span></a>
+                    <p>Premium blog content for aspiring professionals and creatives.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#blog">Blogs</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <!-- Social icons will be loaded dynamically -->
+                    </div>
+                    <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-light);">
+                        Stay connected for latest updates
+                    </p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BlogSphere. All rights reserved. | Designed with <i class="fas fa-heart"></i> for
+                    Portfolio Gold</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Subscription Modal -->
+    <div id="subscribeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Subscribe to <span class="gold-text">BlogSphere</span></h2>
+            <p>Get exclusive access to premium articles and updates.</p>
+            <form class="modal-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit" class="modal-btn">Subscribe Now</button>
+            </form>
+        </div>
+    </div>
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content video-modal-content">
+            <span class="close-modal close-video-modal">&times;</span>
+            <h2 id="videoTitle">Video Tutorial</h2>
+            <div class="video-container">
+                <iframe id="videoPlayer" width="100%" height="400" src="" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="video-description">Watch this tutorial to learn more about this topic.</p>
+        </div>
+    </div>
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay <span class="gold-text">Updated</span></h2>
+                <p>Subscribe to our newsletter and never miss our latest articles and updates.</p>
+
+                <!-- Subscriber Counter -->
+                <div class="subscriber-counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="counter-info">
+                        <h3 class="counter-number" id="subscriberCount">2,847</h3>
+                        <p>Active Subscribers</p>
+                    </div>
+                    <div class="counter-trend">
+                        <i class="fas fa-arrow-up"></i>
+                        <span>+128 this month</span>
+                    </div>
+                </div>
+
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter your email address" required id="subscriberEmail">
+                    <button type="submit" class="subscribe-button">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <p class="form-note"><i class="fas fa-shield-alt"></i> We respect your privacy. Unsubscribe at any time.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Subscription Stats Section -->
+    <section class="subscription-stats">
+        <div class="container">
+            <div class="section-header">
+                <h2>Community <span class="gold-text">Growth</span></h2>
+                <p>Join our growing community of learners and creators</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-user-plus"></i>
+                    <h3><span class="animated-counter" id="totalSubscribers">2,847</span></h3>
+                    <p>Total Subscribers</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3><span class="animated-counter" id="monthlyGrowth">128</span></h3>
+                    <p>Monthly Growth</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-globe"></i>
+                    <h3><span class="animated-counter" id="countries">42</span></h3>
+                    <p>Countries</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-envelope-open"></i>
+                    <h3><span class="animated-counter" id="openRate">94</span>%</h3>
+                    <p>Average Open Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Benefits -->
+    <section class="subscription-benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Subscription <span class="gold-text">Benefits</span></h2>
+                <p>What you get when you join our community</p>
+            </div>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h4>Weekly Updates</h4>
+                        <p>Get curated articles and tutorials delivered to your inbox every week.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h4>Exclusive Content</h4>
+                        <p>Access to premium articles, templates, and resources only for subscribers.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h4>Early Access</h4>
+                        <p>Be the first to know about new features, courses, and special offers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
